@@ -26,7 +26,7 @@ lin_reg.fit(x,y)
 
 # ajustar la regresion polinomica con el dataset
 from sklearn.preprocessing import PolynomialFeatures
-poly_reg = PolynomialFeatures(degree=5)  #regresion polinomica de grado 5
+poly_reg = PolynomialFeatures(degree=6)  #regresion polinomica de grado 5
 x_poly = poly_reg.fit_transform(x)
 
 lin_reg_2 = LinearRegression()
